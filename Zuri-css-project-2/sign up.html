@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    
+  <link
+
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+
+      rel="stylesheet"
+
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>sign up</title>
+</head>
+<body>
+<nav>
+
+      <div class="heading">
+
+        <h4>Menu</h4>
+
+      </div>
+
+      <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a class="active" href="sign up.html">Register</a></li>
+
+        <li><a href="login.html">Login</a></li>
+
+        
+
+      </ul>
+
+    </nav>
+
+    <div class="body-text"><h1>Welcome Newbie</h1>
+    </div>
+<div>
+  <p class="newbie">
+  Hey there newbie Sign up ryt here</p>
+</div>
+  <form action="success_page.html" target="_blank" autocomplete="on">
+  <div>
+    <label for="fname" > 
+    First Name </label> <br>
+<input type="text" id="fname" name="fname" placeholder="First name" required autofocus><br>
+ </div> <br>
+<div>
+    <label for="lname">
+        Lastname:
+    </label><br>
+    <input type="text" id="lname" name="lname" placeholder="Last name" required><br>
+</div><br>
+<div>
+    <label for="phone">Enter Your Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="+234-80-0000-0000" pattern="+[0-9]{3}[0-9]{2}[0-9]{4}[0-9]{4}"><br>
+</div><br>
+<div>
+    <label for="email">Enter Your Email:</label>
+    <input type="email" id="email" name="email" required> <br>
+</div><br>
+<div>
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+        <option value="fmale">Female</option>
+        <option value="male">Male</option>
+        <option value="unknown">Prefer not to say</option>
+    </select><br>
+</div><br>
+<div>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br>
+</div><br>
+<div>
+<label for="favcolor">Select your favorite color: </label>
+<input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+</div><br>
+    <div>
+    <label for="pass"> Your Password (8 characters ):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" maxlength="8" required>
+</div> <br>
+
+<div>
+<button type="submit" 
+href="success_page.html" class="log">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+
+  </form><br>
+
+
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+  <footer>
+      <div class="footer">
+        
+          © Zuri Team October 2022.
+        
+      </div>
+  </footer>
+</html>

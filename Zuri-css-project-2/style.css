@@ -1,0 +1,146 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: mistyrose;
+}
+* {
+
+  margin: 0px;
+
+  padding: 0px;
+
+  box-sizing: border-box;
+
+}
+
+.body-text {
+
+  display: flex;
+
+  font-family: "Montserrat", sans-serif;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 150px;
+margin-bottom: 50px;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  min-height: 50px;
+
+  
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.heading {
+
+  color: lime;
+
+  text-transform: uppercase;
+
+  letter-spacing: 5px;
+
+  font-size: 10px;
+
+}
+
+.nav-links {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  width: 50%;
+
+}
+
+.nav-links li {
+
+  list-style: none;
+
+}
+
+.nav-links a {
+
+  color: maroon;
+
+  text-decoration: none;
+
+  letter-spacing: 3px;
+
+  font-weight: bold;
+
+  font-size: 14px;
+
+  padding: 10px 10px;
+
+}
+
+.nav-links a:hover:not(.active) {
+
+  background-color: lightcoral;
+
+}
+
+.nav-links li a.active {
+
+  background-color: floralwhite;
+padding: 10px 10px;
+
+
+}
+
+.footer {
+  display: block;
+  background-color: deepskyblue;
+  text-align: center;
+  position: bottom;
+ margin-bottom: 0px;
+}
+.login {
+  display: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.log {
+  background-color: chocolate;
+  border: none;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 5px 10px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.newbie {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: oblique;
+  font-weight: 900;
+  margin: 10px 50px 10px;
+  align-items: center;
+}
+input{
+  background-color: mistyrose;
+  border-color: maroon;
+  color: black;
+  }
+
+select{
+  background-color: mistyrose;
+  border-color: maroon;
+  color: black;
+}
